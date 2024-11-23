@@ -3,13 +3,13 @@ import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 export default function ImportedVibes() {
   return (
     <section className="py-12 bg-white px-4">
-      <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
+      <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0">
         {/* Text Section */}
-        <div className="flex-1 text-center sm:text-left">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 font-michroma">
+        <div className="flex-1">
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 font-michroma">
             Imported vibes, no passport needed.
           </h2>
-          <p className="text-lg sm:text-xl text-gray-500 font-michroma">
+          <p className="text-lg sm:text-xl text-gray-500 mt-2 font-michroma">
             Uncover a curated selection of premium international products across diverse categories.
           </p>
         </div>
