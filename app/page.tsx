@@ -1,3 +1,9 @@
+// import Image from "next/image";
+import MarketFeatures from "@/components/MarketFeatures";
+import ProfileShowcase from "@/components/ProfileShowcase"
+// import ProductPage from "@/components/ProductPage";
+import Footer from "@/components/Footer";
+
 // "@/app/page.tsx"
 import Header from "@/components/header/Header";
 import Craving from "@/components/header/Craving";
@@ -10,6 +16,7 @@ import AdditionalInfo from "@/components/header/AdditonalInfo";
 // Dynamically import the Maps component without ssr: false since it's a client component now
 const Maps = dynamic(() => import("@/components/header/Map"));
 
+
 export default function Home() {
   return (
     <>
@@ -21,7 +28,10 @@ export default function Home() {
       <Maps />
       <Gallery />
       <Craving />
+     <MarketFeatures/>
+      <ProfileShowcase/>
       <AdditionalInfo />
+       <Footer/>
     </>
   );
 }
