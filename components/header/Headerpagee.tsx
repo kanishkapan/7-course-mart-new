@@ -1,8 +1,7 @@
 import React from 'react';
 
 
-
-const Header = () => {
+const Headerpagee = () => {
   return (
     <header className="relative w-full h-screen text-white">
       {/* Background Image with Overlay */}
@@ -31,7 +30,7 @@ const Header = () => {
 
         {/* Navigation Links */}
         <nav className="hidden sm:flex space-x-6 md:space-x-10">
-          <a href="#about" className="hover:underline font-bold tracking-wide">
+          <a href="/" className="hover:underline font-bold tracking-wide">
             About
           </a>
           <a href="/gfg" className="hover:underline font-bold tracking-wide">
@@ -40,7 +39,7 @@ const Header = () => {
           <a href="#brands" className="hover:underline font-bold tracking-wide">
             Brands
           </a>
-          <a href="/lml" className="hover:underline font-bold tracking-wide">
+          <a href="#franchise" className="hover:underline font-bold tracking-wide">
             Franchise
           </a>
           <a href="#contact" className="hover:underline font-bold tracking-wide">
@@ -72,15 +71,16 @@ const Header = () => {
       {/* Main Content */}
       <div className="relative z-10 flex flex-col items-start justify-center h-full px-6 sm:px-10 md:px-20 text-left">
         <h2 className="text-4xl sm:text-5xl md:text-7xl  leading-tight font-extrabold font-Michroma tracking-tight mb-4 sm:mb-6 drop-shadow-lg">
-          If it's not Unique <br /> it's not here!!!
+        Franchise <br /> Franchise! 
         </h2>
         <p className="mt-4 text-base sm:text-lg md:text-2xl font-light tracking-wide drop-shadow-lg">
-          7 Course Mart brings you exclusive international beverages <br className="hidden sm:block" />
-          and packaged foods, now available in India for the first time!
+        We're open every day from [Opening Hours], <br className="hidden sm:block" />
+        making it easy for you to drop by anytime 
+        
         </p>
       </div>
     </header>
   );
 };
 
-export default Header;
+export default Headerpagee;

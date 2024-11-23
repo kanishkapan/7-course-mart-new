@@ -1,0 +1,106 @@
+.container {
+    font-family: 'Arial', sans-serif;
+    padding: 2rem;
+  }
+  
+  .header {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    align-items: center;
+  }
+  
+  .imageWrapper {
+    flex: 1;
+  }
+  
+  .headerImage {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .textWrapper {
+    flex: 2;
+  }
+  
+  .textWrapper h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .textWrapper p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .stats {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .stats div {
+    text-align: center;
+  }
+  
+  .stats h2 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .stats p {
+    margin: 0.5rem 0 0;
+  }
+  
+  .about {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+  
+  .aboutText {
+    flex: 2;
+  }
+  
+  .aboutText h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .aboutText p {
+    margin-bottom: 1rem;
+  }
+  
+  .aboutImageWrapper {
+    flex: 1;
+  }
+  
+  .aboutImage {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .franchiseButton {
+    background-color: #004d40;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .franchiseButton:hover {
+    background-color: #00332d;
+  }
+  @media (max-width: 768px) {
+    .header,
+    .about {
+      flex-direction: column;
+    }
+  
+    .headerImage,
+    .aboutImage {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+    

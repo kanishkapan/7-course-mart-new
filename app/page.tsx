@@ -6,6 +6,9 @@ import Footer from "@/components/Footer";
 
 // "@/app/page.tsx"
 import Header from "@/components/header/Header";
+import Snacks from "@/components/header/Snacks";
+
+
 import Craving from "@/components/header/Craving";
 import ImportedVibes from "@/components/header/ImportedVibes";
 import Middle from "@/components/header/Middle";
@@ -21,6 +24,7 @@ export default function Home() {
   return (
     <>
       <Header />
+      <Snacks/>
       <Middle />
       <ImportedVibes />
       <ProductList />
