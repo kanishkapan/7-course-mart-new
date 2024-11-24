@@ -4,7 +4,7 @@ export default function Craving() {
         title: "Expert Staff Assistance",
         subtitle: "Countrywise Sections",
         description: "Clear Categories\nEasy Navigation",
-        image: "/images/expert-staff.jpg", // Replace with actual image paths
+        image: "./Images/Images/DSC05625.jpg", // Replace with actual image paths
       },
       {
         title: "Intuitive Store Layout",

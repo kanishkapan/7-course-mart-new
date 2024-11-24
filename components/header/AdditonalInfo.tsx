@@ -98,7 +98,7 @@ const AdditionalInfo = () => {
                     ? 'max-h-[500px] opacity-100 translate-y-0' 
                     : 'max-h-0 opacity-0 -translate-y-4'}
                 `}
-              >
+              > 
                 <div 
                   className={`
                     px-6 pb-4 pt-2 text-white

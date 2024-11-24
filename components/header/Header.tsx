@@ -1,30 +1,23 @@
 import React from 'react';
 
-
-
 const Header = () => {
   return (
     <header className="relative w-full h-screen text-white">
-      {/* Background Image with Overlay */}
+      {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="./images/placeholder.jpg" // Replace this with your image path
+          src="./images/images/photo-1492558464709-848bd74af502 (1).jpg"
           alt="Store Background"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover brightness-75"
         />
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       </div>
 
       {/* Navigation Bar */}
-      <div className="relative z-10 flex justify-between items-center px-6 sm:px-10 py-4 sm:py-6 bg-transparent">
+      <div className="relative z-10 flex justify-between items-center px-6 sm:px-10 py-4 sm:py-6">
         {/* Logo Section */}
         <div className="flex items-center space-x-3 sm:space-x-4">
-          <img
-            src="./images/logo-removebg-preview.png" // Replace this with your logo path
-            alt="Logo"
-            className="w-8 h-8 sm:w-10 sm:h-10 object-cover filter brightness-75 contrast-125"
-          />
-          <h1 className="text-xl sm:text-2xl font-extrabold tracking-wider drop-shadow-lg">
+          <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white rounded-full" /> {/* Logo placeholder */}
+          <h1 className="text-xl sm:text-2xl font-extrabold tracking-wider">
             7 Course Mart
           </h1>
         </div>
@@ -71,10 +64,10 @@ const Header = () => {
 
       {/* Main Content */}
       <div className="relative z-10 flex flex-col items-start justify-center h-full px-6 sm:px-10 md:px-20 text-left">
-        <h2 className="text-4xl sm:text-5xl md:text-7xl  leading-tight font-extrabold font-Michroma tracking-tight mb-4 sm:mb-6 drop-shadow-lg">
+        <h2 className="text-4xl sm:text-5xl md:text-7xl leading-tight font-extrabold font-Michroma tracking-tight mb-4 sm:mb-6">
           If it's not Unique <br /> it's not here!!!
         </h2>
-        <p className="mt-4 text-base sm:text-lg md:text-2xl font-light tracking-wide drop-shadow-lg">
+        <p className="mt-4 text-base sm:text-lg md:text-2xl font-light tracking-wide">
           7 Course Mart brings you exclusive international beverages <br className="hidden sm:block" />
           and packaged foods, now available in India for the first time!
         </p>

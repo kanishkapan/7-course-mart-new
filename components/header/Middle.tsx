@@ -28,7 +28,7 @@ const Middle = () => {
       {/* Instagram Logo at the right */}
       <div className="absolute right-15 top-1/2 transform -translate-y-1/2 z-10">
         <img
-          src=".//Images/Instagram-logo-3-removebg-preview.png" // Ensure this path is correct for your project
+          src="./images/images/IMG_20241119_175952" // Ensure this path is correct for your project
           alt="Instagram Logo"
           className="h-[300px]"
         />

@@ -16,6 +16,7 @@ import ProductList from "@/components/header/ProductList";
 import dynamic from "next/dynamic";
 import Gallery from "@/components/header/Gallery";
 import AdditionalInfo from "@/components/header/AdditonalInfo";
+import Video from "@/components/header/Video";
 // Dynamically import the Maps component without ssr: false since it's a client component now
 const Maps = dynamic(() => import("@/components/header/Map"));
 
@@ -24,6 +25,7 @@ export default function Home() {
   return (
     <>
       <Header />
+      <Video />
       <Snacks/>
       <Middle />
       <ImportedVibes />

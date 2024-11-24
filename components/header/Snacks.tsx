@@ -8,7 +8,7 @@ const Snacks = () => {
       <section className={styles.header}>
         <div className={styles.imageWrapper}>
           <img
-           src="./images/placeholder.jpg"
+           src="./images/images/IMG_20241119_174301.jpg"
             alt="Hand holding a beverage"
             className={styles.headerImage}
           />
