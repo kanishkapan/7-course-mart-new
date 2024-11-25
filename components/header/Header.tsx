@@ -4,13 +4,13 @@ const Header = () => {
   return (
     <header className="relative w-full h-screen text-white">
       {/* Background Image */}
-      <div className="absolute inset-0">
-        <img
-          src="./images/images/photo-1492558464709-848bd74af502 (1).jpg"
-          alt="Store Background"
-          className="w-full h-full object-cover brightness-75"
-        />
-      </div>
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat brightness-75"
+        style={{
+          backgroundImage:
+            "url('G:/IET DAVV/hackethon/7-course-mart-new/public/Images/Images/IMG_20241119_173733.jpg')",
+        }}
+      ></div>
 
       {/* Navigation Bar */}
       <div className="relative z-10 flex justify-between items-center px-6 sm:px-10 py-4 sm:py-6">
